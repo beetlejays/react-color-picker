@@ -13,9 +13,9 @@ function App() {
       <div className='centered'>
         <h1>Color Picker</h1>
 
-         <SwitchColorButton color="red" setColor="{ setColor }"/>
-         <SwitchColorButton color="blue"setColor="{ setColor }"/>
-         <SwitchColorButton color="yellow"setColor="{ setColor }"/>
+         <SwitchColorButton color="red" setColor={ setColor }/>
+         <SwitchColorButton color="blue" setColor={ setColor }/>
+         <SwitchColorButton color="yellow" setColor={ setColor }/>
 
 
          <button className='red' onClick= { () => setColor("red") } >Red</button>
